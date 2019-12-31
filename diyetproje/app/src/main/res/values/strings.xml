@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">diyetproje</string>
+    <string name="giris">Hoşgeldiniz</string>
+    <string name="diett">Diyet menüsü</string>
+    <string name="oyun">Oyun</string>
+    <string name="takip">Hesapla</string>
+    <string name="gun">Lütfen gün seçin</string>
+    <string name="p1">Player 1 :0</string>
+    <string name="p2">Player 2 :0</string>
+    <string name="reset">Reset</string>
+    <string name="kilo">Kilonuz</string>
+    <string name="kilohint">Lütfen kilonuzu yazın</string>
+    <string name="boy">Boyunuz</string>
+    <string name="boyhint">Lütfen boyunuzu yazın</string>
+</resources>

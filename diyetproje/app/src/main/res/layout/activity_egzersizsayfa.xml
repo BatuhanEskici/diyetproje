@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    tools:context=".egzersizsayfa">
+
+    <TextView
+        android:id="@+id/txt1"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/food" />
+
+    <TextView
+        android:id="@+id/txt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt1"
+        android:text="Her gün 1 saat yürüyüş"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/txt1"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@id/txt2"
+        android:background="@drawable/walking"
+        android:text=""
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/txt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt2"
+        android:layout_marginTop="100dp"
+        android:text="Ya da 30 dakika koşu"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt5"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/txt3"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_toRightOf="@id/txt4"
+        android:background="@drawable/running"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/txt6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt4"
+        android:layout_marginTop="100dp"
+        android:text="Ya da 15 dakika yüzme"
+        android:textColor="@android:color/background_light"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/txt7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_below="@id/txt5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="70dp"
+        android:layout_toRightOf="@id/txt6"
+        android:background="@drawable/swimming"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/txt8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txt6"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:text="Formda kalmanızı sağlar!"
+        android:textColor="@android:color/background_light"
+        android:textSize="35sp" />
+
+</RelativeLayout>
